@@ -29,6 +29,17 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+li {
+  padding: 10px;
+}
+a {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
 }
 
 .card {
